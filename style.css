@@ -1,0 +1,160 @@
+.about-us{
+    padding-bottom: 22px;
+    font-size: 63px;
+    font-weight: 602;
+}
+
+.slider{
+    margin-right:22px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: inline-block;;
+}
+
+.line
+{
+    align-items: center;
+    width:90%;
+    height:9px;
+    border-width:2; 
+    color:black !important; 
+    background-color:black !important;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+#hader-img{
+    width:448px;
+    height: 247px;
+    margin-top:198px;
+    
+}
+
+#about-img{
+    width:552px;
+    height: 453px;
+}
+
+#R-about{
+    padding-left:98px;
+}
+#hader-text{
+    font-weight: 702;
+    font-size: 133px;
+    padding-top:19px;
+    animation: fade 2s;
+}
+input { 
+   width:50% !important;
+   display:flex;
+   justify-items: center !important;
+}
+
+.button{
+    width: 14% !important;
+    margin-left:318px;  
+}
+
+.fix{
+    top: 0;
+    position: fixed;
+    background-color: black;
+    width:100%;
+    z-index: 20;
+}
+
+.bg{
+    background-color: black;
+}
+
+.hover-box:hover{
+    background-color: black;
+    color: white;
+}
+
+.scroll{
+    display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin:12px;
+}
+.card {
+    flex: 0 0 auto;
+    padding:12px;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+.mobile-view-body{
+    padding-left:19px;
+}
+
+.Arow{
+
+height: 42px;
+margin-bottom: 53px;
+border-radius: 182px;
+}
+
+#message {
+    opacity: 0;
+}
+
+@media screen and (max-width:768px)
+{
+    .mobile-view-header-btn{
+      margin-right:11px;
+    }
+    .card{
+        width:302px;
+        height:301px;
+        margin-bottom: 12px;
+    }
+    #hader-text{
+        font-weight: 498;
+        font-size: 58px;
+    }
+
+    #hader-img{
+        width:302px;
+        height: 153px;
+        margin-top:-42px;
+        padding-right:37px;
+    }
+
+    #about-img{
+        width:298px;
+        height: 247px;
+       
+    }
+
+    .mobile-view-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #R-about{
+       padding-left:0px !important;
+    }
+
+    .button{
+        width: 32% !important;
+        margin-left:102px;  
+    }
+
+    .mobile-view-body{
+       padding-left:16px;
+    }
+}
